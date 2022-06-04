@@ -76,8 +76,8 @@ const getUnreadPMCount = async() => {
     roblox['user'] = await getUserInfo();
     if (roblox['user'].UserID) {
         roblox['inventory'] = await getFullInventory(roblox['user'].UserID, 900);
+        roblox['transactionTotals'] = await getTransactionTotals(roblox['user'].UserID);
     }
-    roblox['transactionTotals'] = (await getTransactionTotals(roblox['user'].UserID)).salesTotal;
 
     while (true) {
         await new Promise(resolve => setTimeout(resolve, 120000))
@@ -106,4 +106,6 @@ const getUnreadPMCount = async() => {
     }
 })();
 
-export default roblox;
+export default () => {
+    return roblox;
+};

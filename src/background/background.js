@@ -6,7 +6,7 @@ import roblox from './roblox';
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request === 'getAllData') {
         sendResponse({
-            roblox,
+            roblox: roblox(),
             rolimons: rolimons()
         });
     }
