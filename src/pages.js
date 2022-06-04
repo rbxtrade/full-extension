@@ -17,7 +17,6 @@ const scripts = {
 
 const loadData = async(page, data) => {
     const apiData = await scripts[page.toString()]();
-    console.log(apiData);
 
     const limitedSample = samples[page][0].cloneNode(true);
     var limiteds = [];
@@ -125,7 +124,6 @@ document.addEventListener('page', (e) => {
     while (true) {
         if (loaded) {
             await loadData(current.page, current.data);
-            console.log('reloaded data');
             await new Promise(resolve => setTimeout(resolve, 6000));
         }
         await new Promise(resolve => setTimeout(resolve, 1000));
