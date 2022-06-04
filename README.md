@@ -1,11 +1,23 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Rbxtrade
+# RbxInfo
 
-My Chrome Extension
+Show Roblox trading information on a new tab
 
 ## Features
 
-- Feature 1
-- Feature 2
+- Show your Roblox data at new tab
+    - Robux balance
+    - RAP
+    - Net worth
+    - This month's ROBUX income
+    - Incoming trade count
+    - Friend requests count
+    - Unread private messages count
+    - Limited inventory
+        - Images
+        - Prices
+        - RAP
+        - Rolimon's values
+    - Quick access to Roblox by clicking the counts and limited images
 
 ## Install
 

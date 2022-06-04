@@ -101,6 +101,9 @@ const load = async(page, data = null) => {
     document.getElementById('counts.messages').parentNode.parentNode.onclick = () => {
         window.location = 'https://www.roblox.com/my/messages/#!/inbox';
     }
+    document.getElementById('stats.income').parentNode.parentNode.onclick = () => {
+        window.location = 'https://www.roblox.com/transactions';
+    }
 
     await loadData(page, data);
 };
