@@ -1,6 +1,7 @@
 # RbxInfo
 
 Show Roblox trading information on a new tab
+![Screenshot](https://i.imgur.com/9r9gzpA.png)
 
 ## Features
 
