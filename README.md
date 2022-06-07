@@ -22,7 +22,7 @@ Show Roblox trading information on a new tab
 
 ## Install
 
-[**Chrome** extension]()
+[**Chrome** extension](https://chrome.google.com/webstore/detail/rbxinfo/oanmglljfjcfdljagcennjeebaidmiea)
 
 ## Contribution
 
